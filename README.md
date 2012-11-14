@@ -1,7 +1,11 @@
 PlugBot-Enhancements
 ====================
-
 Enhancements to connergdavis's plugbot, "A collection of extensions to the growing online DJing website, plug.dj. The source code is written in JavaScript utilising the Plug.dj API anywhere possible. Easily embeddable as a bookmark in your favourite browser. Initially inspired by TechGuard's AutoWoot script from back in April '12. "
+
+
+###NOTICE###
+This is a modified version of an existing script, found here https://github.com/connergdavis/Plugbot
+
 
 ###Features List###
 New features are being added daily, however the current list of features is as follows:
@@ -19,4 +23,11 @@ New features are being added daily, however the current list of features is as f
 ###Installation###
 
 To install, create a new bookmark in your favourite browser and copy/paste this to the 'URL/Location' of the bookmark (or even better just select all the text and drag it there)
-```javascript:%20(function%20()%20{%20var%20jsCode%20=%20document.createElement('script');%20jsCode.setAttribute('id',%20'plugbot-js');%20jsCode.setAttribute('src',%20'https://raw.github.com/Colgate/PlugBot-Enhancements/master/plugbot-enhanced.js');%20document.body.appendChild(jsCode);%20}());```
+<pre>javascript:%20(function%20()%20{%20var%20jsCode%20=%20document.createElement('script');%20jsCode.setAttribute('id',%20'plugbot-js');%20jsCode.setAttribute('src',%20'https://raw.github.com/Colgate/PlugBot-Enhancements/master/plugbot-enhanced.js');%20document.body.appendChild(jsCode);%20}());</pre>
+
+###Created By###
+* Jeremy Richardson - AKA Colagate
+<strong>Initial Authors</strong>
+* 
+    Conner Davis <connergdavis@gmail.com> a.k.a. Logic
+    Harrison Schneidman <hschneidman@gmail.com> a.k.a. EXƎ
