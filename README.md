@@ -17,4 +17,6 @@ New features are being added daily, however the current list of features is as f
     * woot or meh a song with /woot or /.meh (. added in front of meh due to plug.dj's interpretation of /meh as an emote)
 
 ###Installation###
-To install
+
+To install, create a new bookmark in your favourite browser and copy/paste this to the 'URL/Location' of the bookmark (or even better just select all the text and drag it there)
+```javascript:%20(function%20()%20{%20var%20jsCode%20=%20document.createElement('script');%20jsCode.setAttribute('id',%20'plugbot-js');%20jsCode.setAttribute('src',%20'https://raw.github.com/Colgate/PlugBot-Enhancements/master/plugbot-enhanced.js');%20document.body.appendChild(jsCode);%20}());```
