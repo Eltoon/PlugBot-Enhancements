@@ -27,7 +27,7 @@ To install, create a new bookmark in your favourite browser and copy/paste this 
 <pre>javascript:%20(function%20()%20{%20var%20jsCode%20=%20document.createElement('script');%20jsCode.setAttribute('id',%20'plugbot-js');%20jsCode.setAttribute('src',%20'https://raw.github.com/Colgate/PlugBot-Enhancements/master/plugbot-enhanced.js');%20document.body.appendChild(jsCode);%20}());</pre>
 
 ###Created By###
-* Jeremy Richardson - AKA Colagate
+* Jeremy Richardson - AKA Colgate
 
 <p><strong>Initial Authors</strong></p>
 
@@ -61,9 +61,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.</p>
 
 ###Version History###
-1.0.0
+1.0.2
 Initial Upload
 - Plug.Bot Core
+- Changed UI anchor and moved location to underneath chat to prevent popout chat from disabling access by deleting UI.
 - ChatCommands (nick, statuses, join/leave, votes)
 - Disable command for moderators to turn your autojoin off (@username !disable)
 - more to come!
