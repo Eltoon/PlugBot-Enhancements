@@ -244,7 +244,7 @@ function toggle(event){if (unsafeWindow.Playback.isMuted){
 }
 
 setTimeout(function() {
-unsafeWindow.$('#volume').append("<div id='muteSong' style='position: absolute; top: 32px;border-style:solid; border-width:1px; padding: 1px; '> Mute current song</div>")
+unsafeWindow.$('#volume').append("<div id='muteSong' style='position: absolute; border-width:1px; padding: 1px; '> Mute For 1 song</div>")
 unsafeWindow.$('#muteSong').click(function(){
 	unsafeWindow.Playback.onSoundButtonClick()
 
@@ -354,5 +354,3 @@ initAPIListeners();
 populateUserlist();
 displayUI();
 initUIListeners();
-//background much needed
-GM_addStyle("html { background: #000 url(http://i.imgur.com/weYWp.jpg) no-repeat scroll center top; } #room-wheel { display: none !important; }");
