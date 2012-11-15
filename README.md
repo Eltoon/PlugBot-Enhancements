@@ -20,6 +20,8 @@ New features are being added daily, however the current list of features is as f
     * change user status with /avail, /afk, /work, /sleep
     * join/leave the dj booth with /join or /leave
     * woot or meh a song with /woot or /.meh (. added in front of meh due to plug.dj's interpretation of /meh as an emote)
+* Chat notifications for when users enter/leave the room, plus when songs are curated.
+
 
 ###Installation###
 
