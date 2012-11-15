@@ -39,7 +39,7 @@
 var version = "Running RainDasher's Fork of Colgate's Plugbot Enhancements version 1.0.2";
 
 
-appendToChat(version, null, "#FFFF00");
+appendToChat(version, null, "#66ffff");
 appendToChat("Use '/commands' to see expanded chat commands.",null,"#66FFFF")
 var recent = false;
 var awaymsg;
