@@ -228,8 +228,9 @@ function appendUser(user) {
 		+ username + '</p>'
 	);
 }
+//End Core
+//Start Raindasher fork
 
-/*End of PlugBot Core - Colgate's Expansion past here*/
 // Volume mute
 if(window.navigator.vendor.match(/Google/)) { 
   var div = document.createElement("div");
@@ -244,7 +245,7 @@ function toggle(event){if (unsafeWindow.Playback.isMuted){
 }
 
 setTimeout(function() {
-unsafeWindow.$('#volume').append("<div id='muteSong' style='position: absolute; border-width:1px; padding: 1px; '> Mute For 1 song</div>")
+unsafeWindow.$('#volume').append("<div id='muteSong' style='position: absolute; top: 32px;border-style:solid; border-width:1px; padding: 1px; '> Mute this song</div>")
 unsafeWindow.$('#muteSong').click(function(){
 	unsafeWindow.Playback.onSoundButtonClick()
 
@@ -253,6 +254,7 @@ unsafeWindow.$('#muteSong').click(function(){
 })
 },5000);
 
+/*Colgate's Expansion past here*/
 /*AppendToChat*/
 function appendToChat(message, from, color, changeToColor){
     style = "";
