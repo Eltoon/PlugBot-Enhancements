@@ -1,3 +1,5 @@
+This is a Fork of Colgate's PlugBot-Enhancements
+<pre>
 PlugBot-Enhancements
 ====================
 Enhancements to connergdavis's plugbot, "A collection of extensions to the growing online DJing website, plug.dj. The source code is written in JavaScript utilising the Plug.dj API anywhere possible. Easily embeddable as a bookmark in your favourite browser. Initially inspired by TechGuard's AutoWoot script from back in April '12. "
@@ -71,3 +73,4 @@ Initial Upload
 - Disable command for moderators to turn your autojoin off (@username !disable)
 - Chat notifications for join/leave/curate
 - more to come!
+</pre>
