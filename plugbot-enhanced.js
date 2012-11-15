@@ -36,7 +36,7 @@
  *
  * Enhanced version author  Jeremy Richardson ([Colgate])
  */
-var version = "Running Colgate's Plugbot Enhancements version 1.0.2";
+var version = "Running RainDasher's Fork of Colgate's Plugbot Enhancements version 1.0.2";
 
 
 appendToChat(version, null, "#FFFF00");
