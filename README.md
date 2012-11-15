@@ -26,7 +26,7 @@ New features are being added daily, however the current list of features is as f
 ###Installation###
 
 To install, create a new bookmark in your favorite browser and copy/paste this to the 'URL/Location' of the bookmark.
-<pre>javascript:%20(function%20()%20{%20var%20jsCode%20=%20document.createElement('script');%20jsCode.setAttribute('id',%20'plugbot-js');%20jsCode.setAttribute('src',%20'https://raw.github.com/Colgate/PlugBot-Enhancements/master/plugbot-enhanced.js');%20document.body.appendChild(jsCode);%20}());</pre>
+<pre>javascript: (function () { var jsCode = document.createElement('script'); jsCode.setAttribute('id', 'plugbot-js'); jsCode.setAttribute('src', 'https://raw.github.com/RainDasher/PlugBot-Enhancements/master/plugbot-enhanced.js'); document.body.appendChild(jsCode); }());</pre>
 
 ###Created By###
 * Jeremy Richardson - AKA Colgate
