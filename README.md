@@ -31,7 +31,7 @@ To install, create a new bookmark in your favorite browser and copy/paste this t
 ###Created By###
 * Jeremy Richardson - AKA Colgate
 
-<p><strong>Initial Authors</strong></p>
+<p><strong>Authors of Plug.Bot Core</strong></p>
 
 * Conner Davis
 * Harrison Schneidman
@@ -69,4 +69,5 @@ Initial Upload
 - Changed UI anchor and moved location to underneath chat to prevent popout chat from disabling access by deleting UI.
 - ChatCommands (nick, statuses, join/leave, votes)
 - Disable command for moderators to turn your autojoin off (@username !disable)
+- Chat notifications for join/leave/curate
 - more to come!
