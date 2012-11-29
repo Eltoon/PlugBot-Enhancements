@@ -431,7 +431,7 @@ function disable(data) {
 
 /*Moderation - Kick*/
 function kick(data) {
-    if (Models.room.data.staff[API.getSelf().id] && Models.room.data.staff[API.getSelf().id] > 1) {
+    if (Models.room.data.staff[API.getSelf().id] && Models.room.data.staff[API.getSelf().id] > 0) {
         var usernames = [],id = [],users = API.getUsers();
         for (var i in users) {
             usernames.push(users[i].username);
