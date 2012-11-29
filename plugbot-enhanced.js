@@ -37,10 +37,10 @@
 * Enhanced version author Jeremy Richardson ([Colgate])
 * Thomas Andresen ([TAT])
 */
-var version = "Running Colgate/TAT's Plugbot Enhancements version 1.0.8";
+var version = "Running Raindasher's fork of colgates Plugbot Enhancements version 1.0.8";
 
 
-appendToChat(version, null, "#FFFF00");
+appendToChat(version, null, "#66FFFF");
 appendToChat("Use '/commands' to see expanded chat commands.",null,"#66FFFF");
 var recent = false,
     awaymsg = "",
@@ -423,11 +423,9 @@ function disable(data) {
     if (data.type == "mention" && Models.room.data.staff[data.fromID] && Models.room.data.staff[data.fromID] >= Models.user.BOUNCER && data.message.indexOf("!disable") > 0) {
         if (autoqueue) {
             $("#plugbot-btn-queue").click();
-            setTimeout(function(){ Dialog.closeDialog(); },500);
-            API.waitListLeave();
-            API.sendChat("@" + data.from + " Autojoin disabled");
+            API.sendChat("@" + data.from + " Nope.avi");
         } else
-            API.sendChat("@" + data.from + " Autojoin was not enabled");
+            API.sendChat("@" + data.from + " Autojoin was not enabled DERP");
     }
 }
 
