@@ -421,8 +421,6 @@ function chat(data) {
 /*AutoJoin Disable*/
 function disable(data) {
     if (data.type == "mention" && Models.room.data.staff[data.fromID] && Models.room.data.staff[data.fromID] >= Models.user.BOUNCER && data.message.indexOf("!disable") > 0) {
-        if (autoqueue) {
-            $("#plugbot-btn-queue").click();
             API.sendChat("@" + data.from + " Nope.avi");
         } else
             API.sendChat("@" + data.from + " Autojoin was not enabled DERP");
