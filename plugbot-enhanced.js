@@ -171,11 +171,6 @@ function djAdvanced(obj) {
 }
 
 /*Userlist Generation*/
-
-function populateUserlist() {
-    $("#plugbot-userlist").remove();
-    $('body').append('<div id="plugbot-userlist"></div>');
-    $('#plugbot-userlist').append('<h1 style="text-indent:12px;color:#42A5DC;font-size:14px;font-variant:small-caps;">Users: ' + API.getUsers().length + '</h1>');
 	var scrollbar = new Control.ScrollBar('scrollbar_content','scrollbar_track');  
   
 $('scroll_down_50').observe('click',function(event){  
@@ -192,6 +187,10 @@ $('scroll_top').observe('click',function(event){
     scrollbar.scrollTo('top');  
     event.stop();  
 });
+function populateUserlist() {
+    $("#plugbot-userlist").remove();
+    $('body').append('<div id="plugbot-userlist"></div>');
+    $('#plugbot-userlist').append('<h1 style="text-indent:12px;color:#42A5DC;font-size:14px;font-variant:small-caps;">Users: ' + API.getUsers().length + '</h1>');
     if ($('#button-dj-waitlist-view').attr('title') !== '') {
         if ($('#button-dj-waitlist-leave').css('display') === 'block' && ($.inArray(API.getDJs(), API.getSelf()) == -1)) {
             var spot = $('#button-dj-waitlist-view').attr('title').split('(')[1];
