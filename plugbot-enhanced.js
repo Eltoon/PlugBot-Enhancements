@@ -172,22 +172,6 @@ function djAdvanced(obj) {
 
 /*Userlist Generation*/
 function populateUserlist() {
-	var scrollbar = new Control.ScrollBar('scrollbar_content','scrollbar_track');  
-  
-$('scroll_down_50').observe('click',function(event){  
-    scrollbar.scrollBy(-50);  
-    event.stop();  
-});  
-  
-$('scroll_up_50').observe('click',function(event){  
-    scrollbar.scrollBy(50);  
-    event.stop();  
-});  
-  
-$('scroll_top').observe('click',function(event){  
-    scrollbar.scrollTo('top');  
-    event.stop();  
-});
     $("#plugbot-userlist").remove();
     $('body').append('<div id="plugbot-userlist"></div>');
     $('#plugbot-userlist').append('<h1 style="text-indent:12px;color:#42A5DC;font-size:14px;font-variant:small-caps;">Users: ' + API.getUsers().length + '</h1>');
